@@ -1,0 +1,118 @@
+/*
+Author:  Cedric Grinel;
+theme:  e-commerce Cake order Website Admin;
+
+*/
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'poppins', sans-serif;
+}
+
+.wrapper{
+	padding: 1%;
+	margin: 0 auto;
+	width: 80%;
+}
+.foot{
+	text-align: center;
+}
+
+/*footer css*/
+
+.footer{
+	background-color: rgb(246, 124, 36);
+}
+
+/*menu css*/
+
+.menu{
+	text-align: center;
+	background-color: rgb(246, 124, 36);
+}
+.menu ul{
+	list-style: none;
+}
+.menu ul li{
+	display: inline;
+	padding: 1%;
+}
+.menu ul li a{
+	text-decoration: none;
+	color: white;
+	font-size: 1rem;
+}
+.menu ul li a:hover{
+	color: #222;
+}
+
+/*main content*/
+
+
+.main{
+	padding: 3% 0;
+	background: rgb(248, 248, 211);
+}
+
+.content{
+	width: 100%;
+}
+.btn-primary{
+	background-color: skyblue;
+	padding: 1%;
+	margin: 1%;
+}
+.btn-primary a{
+	text-decoration: none;
+	font-weight: 500;
+	color: white;
+}
+.btn-primary:hover{
+	background-color: #3742fa;
+}
+.btn-secondary{
+	background-color: #20bf6b;
+	margin: 1px;
+	padding: 1px;
+	font-weight: 500;
+}
+.btn-secondary:hover{
+	background-color: rgb(104, 251, 155);
+}
+.btn-danger{
+	background-color: rgb(254, 32, 32);
+	margin: 1px;
+	padding: 1px;
+	color: white;
+	font-weight: 500;
+}
+.btn-danger:hover{
+	background-color: rgb(158, 8, 8);
+}
+
+table tr th{
+	border-bottom: 1px solid black;
+	text-align: left;
+	padding: 1%;
+}
+
+table tr td{
+	padding: 1%;
+}
+.col-4{
+	padding: 2%;
+	margin: 1%;
+	width: 18%;
+	background-color: white;
+	float: left;
+}
+.clearfix{
+	float: none;
+	clear: both;
+}
+input{
+	padding: 2px;
+	margin: 2px;
+}
+
+
