@@ -48,7 +48,9 @@ if (isset($_SESSION['order'])) {
                         if ($image_name == "") {
                             // display name
                             echo "<div class='error'> Image not Available<div>";
-                        } else {  // image available
+                        } 
+                        else 
+                        {  // image available
                         ?>
                             <img src="img/category/<?php echo $image_name; ?>" class="img-responsive img-curve">
                         <?php
